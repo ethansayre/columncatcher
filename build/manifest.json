@@ -1,0 +1,14 @@
+{
+  "short_name": "Column Catcher",
+  "name": "Column Catcher",
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html"
+ },
+  "browser_action": {
+    "default_title": "Column Catcher"
+  },
+  "content_security_policy": "default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com http://localhost:5000 http://inventt.org:5000; connect-src 'self' http://inventt.org:5000; style-src 'self' 'sha256-R5lpinytNt5NH0Yo3kUb3XFEXTeXlibPlhBmfEffJt0=' 'sha256-4Su6mBWzEIFnH4pAGMOuaeBrstwJN4Z3pq/s1Kn4/KQ='; script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='",
+  "permissions": [ "contextMenus", "background", "tabs", "https://www.googleapis.com/", "http://inventt.org:5000", "http://*/", "https://*/", "storage", "unlimitedStorage", "system.cpu", "notifications", "power" ],
+  "version": "1.0"
+}
