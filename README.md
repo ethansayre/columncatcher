@@ -9,6 +9,8 @@ View Articles:
 ## Known Problems
 * Progress bar does not stop spinning after a query is made.
 * Text for article viewer is hard to read.
+* Search button in the MainMenu component is broken.
+* DB is stored in Chrome's offline localStorage. Will move to Firebase's FireStore in the future.
 
 ## Getting Started
 
