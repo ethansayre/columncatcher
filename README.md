@@ -1,6 +1,10 @@
 # Column Catcher
 
-Article downloader that indexes the first 100 articles of Google News. For use in speech events, such as Extemporaneous and Congressional Debate.
+Article downloader that indexes the first 100 articles of Google News. For use in speech events, such as Extemporaneous and Congressional Debate.  
+Add Articles:
+![image](https://user-images.githubusercontent.com/45691485/52159933-e152bf80-2670-11e9-87d2-ed2cbfb2801c.png)  
+View Articles:
+![image](https://user-images.githubusercontent.com/45691485/52159926-cbdd9580-2670-11e9-93a1-6df7457813a2.png)
 
 ## Known Problems
 * Progress bar does not stop spinning after a query is made.
